@@ -24,6 +24,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://ralsei.uk",
 		tags: ["web"],
 	},
+{
+		id: 2,
+		title: "七彩李子",
+		imgurl: "https://img.api.123472.xyz/download/BQACAgUAAyEGAASoGLS9AAICs2rogbXHHtYNT4b6uF-mj8EMBMd-AAIFIwACm8FAV_UaMG25vDpiPQQ.jpg",
+		desc: "会画画的好朋友",
+		siteurl: "https://b23.tv/9kU0qHM",
+		tags: ["friend"],
+	},
 ];
 
 // 获取所有友情链接数据（稳定顺序，测试可复现）
