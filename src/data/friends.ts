@@ -21,7 +21,7 @@ export const friendsData: FriendItem[] = [
 		title: "Liang",
 		imgurl: "https://img.api.123472.xyz/download/BQACAgUAAyEGAASoGLS9AAICq2roeZovZ0-ZTlQGCF4QFtQTb4-DAALjIgACm8FAV0-liTSomDCwPQQ.jpg",
 		desc: "我的主站",
-		siteurl: "https://mizuki.mysqil.com",
+		siteurl: "https://ralsei.uk",
 		tags: ["web"],
 	},
 ];
