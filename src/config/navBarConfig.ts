@@ -137,6 +137,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	},
 };
 
+
 const defaultNavBarConfig: NavBarConfig = {
 	links: [
 		LinkPresets.Home,
@@ -144,27 +145,19 @@ const defaultNavBarConfig: NavBarConfig = {
 		LinkPresets.Friends,
 		LinkPresets.Moments,
 		LinkPresets.Anime,
-		LinkPresets.Compass,
 		LinkPresets.Albums,
 		{
 			name: i18n(I18nKey.more),
 			icon: "material-symbols:apps-rounded",
 			children: [
 				LinkPresets.Timeline,
-				LinkPresets.Projects,
 				LinkPresets.Devices,
-				LinkPresets.Games,
-				LinkPresets.Skills,
-				// 分类/标签入口不进导航菜单（避免菜单项过多），预设已登记指向独立页面，
-				// 需要时取消注释即可
-				// LinkPresets.Categories,
-				// LinkPresets.Tags,
 				LinkPresets.About,
-				LinkPresets.GitHub,
 			],
 		},
 	],
 };
+
 
 import { resolveI18nText } from "../utils/i18n-utils.ts";
 
