@@ -2,8 +2,8 @@
 title: "关于"
 published: 2026-11-07
 description: "关于这个页面"
-tags: [关于]
-category: "个人记录"
+tags: [about]
+category: "about"
 pinned: true
 ---
 
