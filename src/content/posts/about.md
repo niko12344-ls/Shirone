@@ -14,7 +14,7 @@ pinned: true
 如果我发布的内容侵犯了你的权益 请及时发送[电子邮件](mailto:ralsei@ralsei.uk "电子邮件")情况属实 我会在24小时内删除
 ## 友链申请
 <iframe
-  src="https://friends.123472.xyz/friend-link-form.html"
+  src="https://friends.123472.xyz"
   title="友链申请"
   width="100%"
   height="680"
