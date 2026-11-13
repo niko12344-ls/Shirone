@@ -13,6 +13,7 @@ pinned: true
 *MyTG:niko6525*
 如果我发布的内容侵犯了你的权益 请及时发送[电子邮件](mailto:ralsei@ralsei.uk "电子邮件")情况属实 我会在24小时内删除
 ## 友链申请
+*成功提交以后内容会自动消失 这是正常的请不用担心*
 <iframe
   src="https://friends.123472.xyz"
   title="友链申请"
