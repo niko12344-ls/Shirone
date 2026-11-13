@@ -12,12 +12,12 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 	links: [
 {
     name: "Telegram",
-    icon: "fa6-brands:telegram",
+    icon: "ic:baseline-telegram",
     url: "https://t.me/niko6525",
   },
   {
     name: "QQ",
-    icon: "fa6-brands:qq",
+    icon: "ant-design:qq-circle-filled",
     url: "https://qm.qq.com/q/UegFRoKqEU",
   },
   {
@@ -27,8 +27,8 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
   },
   {
     name: "RSS",
-    icon: "fa6-solid:rss",
-    url: "https://blog.ralsei.uk/rss.xml",
+    icon: "material-symbols:rss-feed-rounded",
+    url: "https://ralsei.uk/rss",
   },
 ],
 });
