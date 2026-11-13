@@ -17,7 +17,7 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
   },
   {
     name: "QQ",
-    icon: "ant-design:qq-circle-filled",
+    icon: "/icons/QQ.svg",
     url: "https://qm.qq.com/q/UegFRoKqEU",
   },
   {
