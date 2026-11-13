@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 	links: [
 {
     name: "Telegram",
-    icon: "ic:baseline-telegram",
+    icon: "/icons/telegram.svg",
     url: "https://t.me/niko6525",
   },
   {
