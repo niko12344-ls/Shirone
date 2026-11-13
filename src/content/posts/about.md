@@ -13,4 +13,12 @@ pinned: true
 *MyTG:niko6525*
 如果我发布的内容侵犯了你的权益 请及时发送[电子邮件](mailto:ralsei@ralsei.uk "电子邮件")情况属实 我会在24小时内删除
 ## 友链申请
-[电子邮件](mailto:ralsei@ralsei.uk "电子邮件")申请即可
+<iframe
+  src="https://friends.123472.xyz/friend-link-form.html"
+  title="友链申请"
+  width="100%"
+  height="680"
+  style="border:1px solid #ccc;max-width:560px;display:block;margin:0 auto;"
+  loading="lazy"
+  sandbox="allow-forms allow-scripts allow-same-origin"
+></iframe>
