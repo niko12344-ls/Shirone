@@ -51,13 +51,19 @@ const svgStyle = $derived([
 </script>
 
 {#if isExternalSvg}
-    <img
-        src={resolved}
-        alt=""
-        aria-hidden={props["aria-hidden"] ?? true}
+    <span
+        aria-hidden="true"
         class={props.class}
-        style={svgStyle}
-    />
+        style={`
+            display: inline-block;
+            width: ${props.width ?? (props.height ? "auto" : "1em")};
+            height: ${props.height ?? (props.width ? "auto" : "1em")};
+            background-color: ${props.color ?? "currentColor"};
+            -webkit-mask: url("${resolved}") center / contain no-repeat;
+            mask: url("${resolved}") center / contain no-repeat;
+            ${props.style ?? ""}
+        `}
+    ></span>
 {:else}
     <OfflineIcon icon={resolved} {...props} />
 {/if}
