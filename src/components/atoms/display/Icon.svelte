@@ -49,11 +49,30 @@ warnAboutLegacyName(name);
 // type error against that signature. An empty name renders nothing, which is
 // what an icon-less call should do anyway.
 function resolveIconName(raw: unknown): string {
-	if (typeof raw !== "string" || raw.length === 0) return "";
-	return raw.includes(":") ? raw : `local:${raw}`;
+    if (typeof raw !== "string" || raw.length === 0) return "";
+
+    // Public SVG files
+    if (raw.startsWith("/") && /\.svg$/i.test(raw)) {
+        return raw;
+    }
+
+    // Iconify collections and local icons
+    return raw.includes(":") ? raw : `local:${raw}`;
 }
 
 const resolved = $derived(resolveIconName(icon ?? name));
 </script>
 
-<OfflineIcon icon={resolved} {...props} />
+{#if resolved.startsWith("/") && /\.svg$/i.test(resolved)}
+    <img
+        src={resolved}
+        alt=""
+        aria-hidden="true"
+        width={24}
+        height={24}
+        class={props.class as string}
+        style={`width: ${typeof props.width === "number" ? `${props.width}px` : props.width ?? "1em"}; height: ${typeof props.height === "number" ? `${props.height}px` : props.height ?? "1em"}; ${props.style ?? ""}`}
+    />
+{:else}
+    <OfflineIcon icon={resolved} {...props} />
+{/if}
