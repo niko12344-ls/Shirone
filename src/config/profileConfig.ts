@@ -12,12 +12,12 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 	links: [
 {
     name: "Telegram",
-    icon: "ic:baseline-telegram",
+    icon: "/icons/telegram.svg",
     url: "https://t.me/niko6525",
   },
   {
     name: "QQ",
-    icon: "ant-design:qq-circle-filled",
+    icon: "/icons/QQ.svg",
     url: "https://qm.qq.com/q/UegFRoKqEU",
   },
   {
